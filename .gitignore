@@ -1,0 +1,72 @@
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+.vscode/
+.idea/
+*.iml
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Env / secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# Virtualenvs
+.venv/
+venv/
+ENV/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# --- Node / React Native / Expo ---
+node_modules/
+
+# Expo
+.expo/
+.expo-shared/
+
+# Metro / React Native
+.metro-cache/
+.npm/
+.yarn/
+.pnp.*
+
+# Bundles / builds
+web-build/
+dist/
+build/
+coverage/
+
+# React Native native folders (if you ever generate them)
+android/.gradle/
+android/app/build/
+android/build/
+ios/Pods/
+ios/build/
+
+# App artifacts
+*.apk
+*.aab
+*.ipa
+
+# --- Misc ---
+*.swp
+*.swo
+*.tmp
